@@ -1,0 +1,837 @@
+[
+  {
+    "student_id": "student_001",
+    "top_code": "RIA",
+    "scores": {
+      "MATH": 8.5,
+      "PHYSICS": 8.2,
+      "CHEMISTRY": 8.3,
+      "ENGLISH": 8.9,
+      "LITERATURE": 7.8,
+      "BIOLOGY": 8.7
+    },
+    "relevant_majors": [
+      "7520114",
+      "7510301",
+      "7440112",
+      "7850101",
+      "7510102",
+      "7520216",
+      "7520201",
+      "7480103",
+      "7580201",
+      "7540101",
+      "7520103",
+      "7420201"
+    ]
+  },
+  {
+    "student_id": "student_002",
+    "top_code": "RIS",
+    "scores": {
+      "MATH": 9.2,
+      "PHYSICS": 9.3,
+      "CHEMISTRY": 8.5,
+      "ENGLISH": 6.7,
+      "LITERATURE": 6.9
+    },
+    "relevant_majors": [
+      "7520114",
+      "7510301",
+      "7440112",
+      "7850101",
+      "7510102",
+      "7520216",
+      "7520201",
+      "7480103",
+      "7580201",
+      "7540101",
+      "7520103",
+      "7420201"
+    ]
+  },
+  {
+    "student_id": "student_003",
+    "top_code": "RIC",
+    "scores": {
+      "MATH": 7.8,
+      "LITERATURE": 9.0,
+      "ENGLISH": 9.3,
+      "HISTORY": 7.6,
+      "GEOGRAPHY": 7.5
+    },
+    "relevant_majors": [
+      "7520114",
+      "7549001",
+      "7510301",
+      "7850101",
+      "7510102",
+      "7520216",
+      "7520201",
+      "7480103",
+      "7580201",
+      "7540101",
+      "7420201"
+    ]
+  },
+  {
+    "student_id": "student_004",
+    "top_code": "RIE",
+    "scores": {
+      "MATH": 7.7,
+      "BIOLOGY": 9.2,
+      "CHEMISTRY": 8.9,
+      "LITERATURE": 7.0,
+      "ENGLISH": 7.6
+    },
+    "relevant_majors": [
+      "7520114",
+      "7510301",
+      "7440112",
+      "7850101",
+      "7510102",
+      "7520216",
+      "7520201",
+      "7480103",
+      "7580201",
+      "7540101",
+      "7420201"
+    ]
+  },
+  {
+    "student_id": "student_005",
+    "top_code": "IRA",
+    "scores": {
+      "MATH": 6.6,
+      "PHYSICS": 6.6,
+      "CHEMISTRY": 6.3,
+      "ENGLISH": 7.4,
+      "LITERATURE": 6.5
+    },
+    "relevant_majors": [
+      "7510301",
+      "7440112",
+      "7850101",
+      "7510102",
+      "7520201",
+      "7480103",
+      "7580201",
+      "7540101",
+      "7420201"
+    ]
+  },
+  {
+    "student_id": "student_006",
+    "top_code": "IAS",
+    "scores": {
+      "MATH": 5.6,
+      "PHYSICS": 5.6,
+      "CHEMISTRY": 5.9,
+      "ENGLISH": 6.0,
+      "LITERATURE": 6.1,
+      "BIOLOGY": 6.1
+    },
+    "relevant_majors": [
+      "7310301"
+    ]
+  },
+  {
+    "student_id": "student_007",
+    "top_code": "IAE",
+    "scores": {
+      "LITERATURE": 8.8,
+      "HISTORY": 9.0,
+      "GEOGRAPHY": 8.4,
+      "ENGLISH": 8.4,
+      "MATH": 6.9
+    },
+    "relevant_majors": []
+  },
+  {
+    "student_id": "student_008",
+    "top_code": "IAC",
+    "scores": {
+      "MATH": 9.0,
+      "INFORMATICS": 9.8,
+      "PHYSICS": 8.1,
+      "ENGLISH": 8.7,
+      "CHEMISTRY": 7.3
+    },
+    "relevant_majors": []
+  },
+  {
+    "student_id": "student_009",
+    "top_code": "ARI",
+    "scores": {
+      "MATH": 8.8,
+      "PHYSICS": 8.4,
+      "CHEMISTRY": 8.5,
+      "ENGLISH": 8.7,
+      "LITERATURE": 7.9,
+      "BIOLOGY": 8.2
+    },
+    "relevant_majors": [
+      "7210403"
+    ]
+  },
+  {
+    "student_id": "student_010",
+    "top_code": "AIE",
+    "scores": {
+      "MATH": 10.0,
+      "PHYSICS": 8.6,
+      "CHEMISTRY": 8.8,
+      "ENGLISH": 6.6,
+      "LITERATURE": 6.7
+    },
+    "relevant_majors": []
+  },
+  {
+    "student_id": "student_011",
+    "top_code": "AIS",
+    "scores": {
+      "MATH": 8.1,
+      "LITERATURE": 8.3,
+      "ENGLISH": 9.2,
+      "HISTORY": 7.8,
+      "GEOGRAPHY": 7.7
+    },
+    "relevant_majors": []
+  },
+  {
+    "student_id": "student_012",
+    "top_code": "AIC",
+    "scores": {
+      "MATH": 7.6,
+      "BIOLOGY": 8.8,
+      "CHEMISTRY": 8.9,
+      "LITERATURE": 7.3,
+      "ENGLISH": 7.5
+    },
+    "relevant_majors": []
+  },
+  {
+    "student_id": "student_013",
+    "top_code": "SIA",
+    "scores": {
+      "MATH": 6.5,
+      "PHYSICS": 6.8,
+      "CHEMISTRY": 6.3,
+      "ENGLISH": 7.9,
+      "LITERATURE": 7.3
+    },
+    "relevant_majors": [
+      "7720201",
+      "7220204",
+      "7310614",
+      "7310613",
+      "7310301",
+      "7220201"
+    ]
+  },
+  {
+    "student_id": "student_014",
+    "top_code": "SIE",
+    "scores": {
+      "MATH": 5.8,
+      "PHYSICS": 5.5,
+      "CHEMISTRY": 5.2,
+      "ENGLISH": 6.7,
+      "LITERATURE": 5.6,
+      "BIOLOGY": 6.5
+    },
+    "relevant_majors": [
+      "7310614",
+      "7310613",
+      "7310301"
+    ]
+  },
+  {
+    "student_id": "student_015",
+    "top_code": "SAE",
+    "scores": {
+      "LITERATURE": 8.5,
+      "HISTORY": 9.3,
+      "GEOGRAPHY": 8.9,
+      "ENGLISH": 8.4,
+      "MATH": 6.6
+    },
+    "relevant_majors": [
+      "7140217",
+      "7220201"
+    ]
+  },
+  {
+    "student_id": "student_016",
+    "top_code": "SAI",
+    "scores": {
+      "MATH": 9.4,
+      "INFORMATICS": 9.3,
+      "PHYSICS": 8.0,
+      "ENGLISH": 8.8,
+      "CHEMISTRY": 6.9
+    },
+    "relevant_majors": [
+      "7310614",
+      "7310613",
+      "7140202",
+      "7220201"
+    ]
+  },
+  {
+    "student_id": "student_017",
+    "top_code": "EIS",
+    "scores": {
+      "MATH": 9.0,
+      "PHYSICS": 8.8,
+      "CHEMISTRY": 8.0,
+      "ENGLISH": 8.8,
+      "LITERATURE": 8.3,
+      "BIOLOGY": 8.1
+    },
+    "relevant_majors": [
+      "7140103",
+      "7310206",
+      "7380101"
+    ]
+  },
+  {
+    "student_id": "student_018",
+    "top_code": "ESA",
+    "scores": {
+      "MATH": 9.2,
+      "PHYSICS": 8.6,
+      "CHEMISTRY": 8.2,
+      "ENGLISH": 6.6,
+      "LITERATURE": 6.1
+    },
+    "relevant_majors": [
+      "7320108"
+    ]
+  },
+  {
+    "student_id": "student_019",
+    "top_code": "EAS",
+    "scores": {
+      "MATH": 8.3,
+      "LITERATURE": 8.4,
+      "ENGLISH": 9.8,
+      "HISTORY": 8.1,
+      "GEOGRAPHY": 8.0
+    },
+    "relevant_majors": [
+      "7320108",
+      "7320104"
+    ]
+  },
+  {
+    "student_id": "student_020",
+    "top_code": "EAI",
+    "scores": {
+      "MATH": 8.2,
+      "BIOLOGY": 9.3,
+      "CHEMISTRY": 8.5,
+      "LITERATURE": 7.2,
+      "ENGLISH": 7.5
+    },
+    "relevant_majors": [
+      "7320108",
+      "7320104"
+    ]
+  },
+  {
+    "student_id": "student_021",
+    "top_code": "CIS",
+    "scores": {
+      "MATH": 7.0,
+      "PHYSICS": 6.9,
+      "CHEMISTRY": 7.0,
+      "ENGLISH": 7.8,
+      "LITERATURE": 6.6
+    },
+    "relevant_majors": [
+      "7310205",
+      "7480201",
+      "7850103",
+      "7340101",
+      "7340302"
+    ]
+  },
+  {
+    "student_id": "student_022",
+    "top_code": "CIA",
+    "scores": {
+      "MATH": 6.5,
+      "PHYSICS": 6.3,
+      "CHEMISTRY": 5.7,
+      "ENGLISH": 6.4,
+      "LITERATURE": 5.6,
+      "BIOLOGY": 5.7
+    },
+    "relevant_majors": [
+      "7480201",
+      "7850103",
+      "7340101"
+    ]
+  },
+  {
+    "student_id": "student_023",
+    "top_code": "CRS",
+    "scores": {
+      "LITERATURE": 9.2,
+      "HISTORY": 9.1,
+      "GEOGRAPHY": 8.2,
+      "ENGLISH": 8.5,
+      "MATH": 7.2
+    },
+    "relevant_majors": [
+      "7549001",
+      "7510205"
+    ]
+  },
+  {
+    "student_id": "student_024",
+    "top_code": "CRI",
+    "scores": {
+      "MATH": 8.7,
+      "INFORMATICS": 9.0,
+      "PHYSICS": 8.2,
+      "ENGLISH": 8.2,
+      "CHEMISTRY": 6.6
+    },
+    "relevant_majors": [
+      "7549001",
+      "7510205",
+      "7480201",
+      "7850103",
+      "7580101"
+    ]
+  },
+  {
+    "student_id": "student_025",
+    "top_code": "RAS",
+    "scores": {
+      "MATH": 9.0,
+      "PHYSICS": 8.4,
+      "CHEMISTRY": 8.2,
+      "ENGLISH": 8.8,
+      "LITERATURE": 7.8,
+      "BIOLOGY": 8.9
+    },
+    "relevant_majors": [
+      "7210403"
+    ]
+  },
+  {
+    "student_id": "student_026",
+    "top_code": "ISC",
+    "scores": {
+      "MATH": 9.4,
+      "PHYSICS": 8.5,
+      "CHEMISTRY": 8.2,
+      "ENGLISH": 7.1,
+      "LITERATURE": 6.9
+    },
+    "relevant_majors": [
+      "7720201",
+      "7220204",
+      "7310614",
+      "7310613",
+      "7140209",
+      "7310301",
+      "7140202",
+      "7310403",
+      "7140101"
+    ]
+  },
+  {
+    "student_id": "student_027",
+    "top_code": "AES",
+    "scores": {
+      "MATH": 8.3,
+      "LITERATURE": 8.2,
+      "ENGLISH": 9.6,
+      "HISTORY": 7.6,
+      "GEOGRAPHY": 7.7
+    },
+    "relevant_majors": [
+      "7320108",
+      "7320104"
+    ]
+  },
+  {
+    "student_id": "student_028",
+    "top_code": "SEC",
+    "scores": {
+      "MATH": 8.4,
+      "BIOLOGY": 9.5,
+      "CHEMISTRY": 8.5,
+      "LITERATURE": 7.4,
+      "ENGLISH": 7.6
+    },
+    "relevant_majors": [
+      "7760101"
+    ]
+  },
+  {
+    "student_id": "student_029",
+    "top_code": "REI",
+    "scores": {
+      "MATH": 6.7,
+      "PHYSICS": 7.3,
+      "CHEMISTRY": 6.1,
+      "ENGLISH": 7.6,
+      "LITERATURE": 6.8
+    },
+    "relevant_majors": []
+  },
+  {
+    "student_id": "student_030",
+    "top_code": "ACS",
+    "scores": {
+      "MATH": 6.1,
+      "PHYSICS": 5.9,
+      "CHEMISTRY": 5.3,
+      "ENGLISH": 6.1,
+      "LITERATURE": 6.5,
+      "BIOLOGY": 5.8
+    },
+    "relevant_majors": [
+      "7220210"
+    ]
+  },
+  {
+    "student_id": "student_031",
+    "top_code": "ISR",
+    "scores": {
+      "LITERATURE": 9.1,
+      "HISTORY": 8.6,
+      "GEOGRAPHY": 8.8,
+      "ENGLISH": 8.5,
+      "MATH": 6.7
+    },
+    "relevant_majors": [
+      "7140218",
+      "7220204",
+      "7310614",
+      "7310401",
+      "7310613",
+      "7310301",
+      "7310403",
+      "7140101"
+    ]
+  },
+  {
+    "student_id": "student_032",
+    "top_code": "RCA",
+    "scores": {
+      "MATH": 9.3,
+      "INFORMATICS": 9.3,
+      "PHYSICS": 7.6,
+      "ENGLISH": 9.0,
+      "CHEMISTRY": 6.9
+    },
+    "relevant_majors": [
+      "7549001",
+      "7510205",
+      "7580101"
+    ]
+  },
+  {
+    "student_id": "student_033",
+    "top_code": "CRI",
+    "scores": {
+      "MATH": 8.6,
+      "PHYSICS": 8.8,
+      "CHEMISTRY": 7.9,
+      "ENGLISH": 9.5,
+      "LITERATURE": 7.7,
+      "BIOLOGY": 8.0
+    },
+    "relevant_majors": [
+      "7549001",
+      "7510205",
+      "7480201",
+      "7850103",
+      "7580101"
+    ]
+  },
+  {
+    "student_id": "student_034",
+    "top_code": "ISC",
+    "scores": {
+      "MATH": 9.1,
+      "PHYSICS": 8.5,
+      "CHEMISTRY": 8.7,
+      "ENGLISH": 7.1,
+      "LITERATURE": 6.2
+    },
+    "relevant_majors": [
+      "7720201",
+      "7220204",
+      "7310614",
+      "7310613",
+      "7140209",
+      "7310301",
+      "7140202",
+      "7310403"
+    ]
+  },
+  {
+    "student_id": "student_035",
+    "top_code": "RSI",
+    "scores": {
+      "MATH": 7.9,
+      "LITERATURE": 8.3,
+      "ENGLISH": 9.2,
+      "HISTORY": 7.8,
+      "GEOGRAPHY": 7.6
+    },
+    "relevant_majors": []
+  },
+  {
+    "student_id": "student_036",
+    "top_code": "ARE",
+    "scores": {
+      "MATH": 7.9,
+      "BIOLOGY": 8.6,
+      "CHEMISTRY": 8.3,
+      "LITERATURE": 7.0,
+      "ENGLISH": 7.8
+    },
+    "relevant_majors": [
+      "7320104",
+      "7210403"
+    ]
+  },
+  {
+    "student_id": "student_037",
+    "top_code": "CAI",
+    "scores": {
+      "MATH": 7.4,
+      "PHYSICS": 7.0,
+      "CHEMISTRY": 6.1,
+      "ENGLISH": 7.5,
+      "LITERATURE": 7.4
+    },
+    "relevant_majors": [
+      "7220210"
+    ]
+  },
+  {
+    "student_id": "student_038",
+    "top_code": "ICR",
+    "scores": {
+      "MATH": 6.2,
+      "PHYSICS": 5.6,
+      "CHEMISTRY": 5.2,
+      "ENGLISH": 6.6,
+      "LITERATURE": 5.6,
+      "BIOLOGY": 6.2
+    },
+    "relevant_majors": [
+      "7480201",
+      "7850101",
+      "7850103",
+      "7340101",
+      "7480103",
+      "7540101",
+      "7420201"
+    ]
+  },
+  {
+    "student_id": "student_039",
+    "top_code": "ACI",
+    "scores": {
+      "LITERATURE": 8.5,
+      "HISTORY": 8.8,
+      "GEOGRAPHY": 8.8,
+      "ENGLISH": 8.1,
+      "MATH": 6.6
+    },
+    "relevant_majors": [
+      "7220210"
+    ]
+  },
+  {
+    "student_id": "student_040",
+    "top_code": "EAI",
+    "scores": {
+      "MATH": 9.0,
+      "INFORMATICS": 9.9,
+      "PHYSICS": 7.7,
+      "ENGLISH": 8.3,
+      "CHEMISTRY": 6.8
+    },
+    "relevant_majors": [
+      "7320104"
+    ]
+  },
+  {
+    "student_id": "student_041",
+    "top_code": "IEA",
+    "scores": {
+      "MATH": 8.6,
+      "PHYSICS": 8.2,
+      "CHEMISTRY": 7.9,
+      "ENGLISH": 9.1,
+      "LITERATURE": 8.5,
+      "BIOLOGY": 9.0
+    },
+    "relevant_majors": [
+      "7140103",
+      "7310206",
+      "7380101"
+    ]
+  },
+  {
+    "student_id": "student_042",
+    "top_code": "IRE",
+    "scores": {
+      "MATH": 9.1,
+      "PHYSICS": 8.5,
+      "CHEMISTRY": 8.5,
+      "ENGLISH": 6.6,
+      "LITERATURE": 6.6
+    },
+    "relevant_majors": [
+      "7520114",
+      "7510301",
+      "7440112",
+      "7850101",
+      "7510102",
+      "7520216",
+      "7520201",
+      "7480103",
+      "7580201",
+      "7540101",
+      "7520103",
+      "7420201"
+    ]
+  },
+  {
+    "student_id": "student_043",
+    "top_code": "RCA",
+    "scores": {
+      "MATH": 8.1,
+      "LITERATURE": 8.5,
+      "ENGLISH": 9.7,
+      "HISTORY": 8.0,
+      "GEOGRAPHY": 7.6
+    },
+    "relevant_majors": [
+      "7549001",
+      "7510205"
+    ]
+  },
+  {
+    "student_id": "student_044",
+    "top_code": "ICE",
+    "scores": {
+      "MATH": 8.0,
+      "BIOLOGY": 8.7,
+      "CHEMISTRY": 9.0,
+      "LITERATURE": 7.4,
+      "ENGLISH": 7.6
+    },
+    "relevant_majors": [
+      "7310205",
+      "7140103",
+      "7480201",
+      "7850103",
+      "7340101",
+      "7380101",
+      "7340302"
+    ]
+  },
+  {
+    "student_id": "student_045",
+    "top_code": "SRC",
+    "scores": {
+      "MATH": 7.3,
+      "PHYSICS": 7.3,
+      "CHEMISTRY": 6.6,
+      "ENGLISH": 7.3,
+      "LITERATURE": 6.8
+    },
+    "relevant_majors": []
+  },
+  {
+    "student_id": "student_046",
+    "top_code": "ISC",
+    "scores": {
+      "MATH": 6.4,
+      "PHYSICS": 5.7,
+      "CHEMISTRY": 5.5,
+      "ENGLISH": 6.5,
+      "LITERATURE": 5.7,
+      "BIOLOGY": 5.7
+    },
+    "relevant_majors": [
+      "7310614",
+      "7310613",
+      "7310301"
+    ]
+  },
+  {
+    "student_id": "student_047",
+    "top_code": "ISR",
+    "scores": {
+      "LITERATURE": 8.9,
+      "HISTORY": 8.6,
+      "GEOGRAPHY": 8.0,
+      "ENGLISH": 8.0,
+      "MATH": 6.9
+    },
+    "relevant_majors": [
+      "7140218",
+      "7220204",
+      "7310614",
+      "7310401",
+      "7310613",
+      "7310301",
+      "7310403",
+      "7140101"
+    ]
+  },
+  {
+    "student_id": "student_048",
+    "top_code": "RSC",
+    "scores": {
+      "MATH": 9.1,
+      "INFORMATICS": 9.2,
+      "PHYSICS": 7.6,
+      "ENGLISH": 8.4,
+      "CHEMISTRY": 7.4
+    },
+    "relevant_majors": []
+  },
+  {
+    "student_id": "student_049",
+    "top_code": "SAE",
+    "scores": {
+      "MATH": 8.6,
+      "PHYSICS": 8.3,
+      "CHEMISTRY": 7.8,
+      "ENGLISH": 9.4,
+      "LITERATURE": 7.5,
+      "BIOLOGY": 8.6
+    },
+    "relevant_majors": [
+      "7140217",
+      "7220201"
+    ]
+  },
+  {
+    "student_id": "student_050",
+    "top_code": "RSC",
+    "scores": {
+      "MATH": 9.0,
+      "PHYSICS": 9.4,
+      "CHEMISTRY": 8.2,
+      "ENGLISH": 6.9,
+      "LITERATURE": 6.5
+    },
+    "relevant_majors": []
+  }
+]

@@ -35,27 +35,21 @@ class RIASECScore(BaseModel):
 # ============================================================
 # REQUEST SCHEMAS — Next.js gửi lên
 # ============================================================
-
 class StudentProfileRequest(BaseModel):
-    """
-    Hồ sơ học sinh — đầu vào chung cho tất cả 4 baseline.
-    Next.js gửi object này lên mỗi khi gọi API gợi ý ngành.
-    """
-    # Kết quả Holland Test từ tầng 1
     riasec_scores: RIASECScore
-
-    # Điểm các môn học sinh nhập ở tầng 2
-    # Key: subject_code, Value: điểm (0.0 - 10.0)
-    subject_scores: dict[str, float] = Field(default_factory=dict)
-
-    # Lọc địa lý (tuỳ chọn)
-    province_id: Optional[UUID] = None   # ID đơn vị hành chính cấp tỉnh
-    district_id: Optional[UUID] = None  # ID đơn vị hành chính cấp quận/huyện
-
-    # Năm xét tuyển — mặc định năm hiện tại
-    admission_year: int = 2024
-
-    # Số lượng kết quả tối đa trả về
+    # Key là subject_code từ DB: MATH, PHYSICS, CHEMISTRY...
+    subject_scores: dict[str, float] = Field(
+        default_factory=dict,
+        description="Key: subject_code (MATH, PHYSICS,...) | Value: điểm 0.0–10.0",
+        example={
+            "MATH": 8.5,
+            "PHYSICS": 7.0,
+            "ENGLISH": 9.0,
+        }
+    )
+    province_id: Optional[str] = None
+    district_id: Optional[str] = None
+    admission_year: int = 2026
     top_n: int = Field(default=10, ge=1, le=50)
 
 

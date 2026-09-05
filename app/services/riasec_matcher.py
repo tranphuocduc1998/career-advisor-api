@@ -69,7 +69,7 @@ def build_major_riasec_vector(
     vector = {}
     for row in major_rows:
         code = row["riasec_code"].upper()
-        raw_score = float(row["score"])
+        raw_score = float(row["score"] or 0)
         vector[code] = round(raw_score / max_score, 4)
 
     return vector

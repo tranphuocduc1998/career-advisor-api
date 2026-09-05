@@ -1,0 +1,146 @@
+{
+  "best": {
+    "alpha": 0.7,
+    "beta": 0.1,
+    "gamma": 0.1,
+    "delta": 0.1,
+    "k": 3,
+    "mean_precision": 0.7833,
+    "mean_ndcg": 0.998,
+    "mean_combined": 0.8907,
+    "num_profiles": 40
+  },
+  "top_results": [
+    {
+      "alpha": 0.7,
+      "beta": 0.1,
+      "gamma": 0.1,
+      "delta": 0.1,
+      "k": 3,
+      "mean_precision": 0.7833,
+      "mean_ndcg": 0.998,
+      "mean_combined": 0.8907,
+      "num_profiles": 40
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.2,
+      "gamma": 0.1,
+      "delta": 0.1,
+      "k": 3,
+      "mean_precision": 0.775,
+      "mean_ndcg": 0.9791,
+      "mean_combined": 0.877,
+      "num_profiles": 40
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.2,
+      "gamma": 0.1,
+      "delta": 0.2,
+      "k": 3,
+      "mean_precision": 0.7667,
+      "mean_ndcg": 0.9732,
+      "mean_combined": 0.8699,
+      "num_profiles": 40
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.3,
+      "gamma": 0.1,
+      "delta": 0.1,
+      "k": 3,
+      "mean_precision": 0.7667,
+      "mean_ndcg": 0.9732,
+      "mean_combined": 0.8699,
+      "num_profiles": 40
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.3,
+      "gamma": 0.1,
+      "delta": 0.2,
+      "k": 3,
+      "mean_precision": 0.75,
+      "mean_ndcg": 0.9544,
+      "mean_combined": 0.8522,
+      "num_profiles": 40
+    },
+    {
+      "alpha": 0.4,
+      "beta": 0.4,
+      "gamma": 0.1,
+      "delta": 0.1,
+      "k": 3,
+      "mean_precision": 0.75,
+      "mean_ndcg": 0.9544,
+      "mean_combined": 0.8522,
+      "num_profiles": 40
+    },
+    {
+      "alpha": 0.3,
+      "beta": 0.3,
+      "gamma": 0.1,
+      "delta": 0.3,
+      "k": 3,
+      "mean_precision": 0.7333,
+      "mean_ndcg": 0.9322,
+      "mean_combined": 0.8328,
+      "num_profiles": 40
+    },
+    {
+      "alpha": 0.5,
+      "beta": 0.2,
+      "gamma": 0.2,
+      "delta": 0.1,
+      "k": 3,
+      "mean_precision": 0.7333,
+      "mean_ndcg": 0.9322,
+      "mean_combined": 0.8328,
+      "num_profiles": 40
+    },
+    {
+      "alpha": 0.6,
+      "beta": 0.1,
+      "gamma": 0.2,
+      "delta": 0.1,
+      "k": 3,
+      "mean_precision": 0.7333,
+      "mean_ndcg": 0.9322,
+      "mean_combined": 0.8328,
+      "num_profiles": 40
+    },
+    {
+      "alpha": 0.7,
+      "beta": 0.1,
+      "gamma": 0.1,
+      "delta": 0.1,
+      "k": 5,
+      "mean_precision": 0.635,
+      "mean_ndcg": 0.998,
+      "mean_combined": 0.8165,
+      "num_profiles": 40
+    }
+  ],
+  "all_results_count": 92,
+  "grid_config": {
+    "weight_grid": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7
+    ],
+    "k_grid": [
+      3,
+      5,
+      7,
+      10
+    ],
+    "admission_year": 2026,
+    "num_profiles": 50,
+    "num_majors": 52
+  }
+}

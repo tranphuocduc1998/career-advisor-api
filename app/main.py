@@ -5,7 +5,7 @@ from app.models.schemas import HealthResponse
 from app.config import ALLOWED_ORIGINS
 
 # Thêm vào phần import ở đầu file
-from app.routers import baseline1
+from app.routers import baseline1, baseline2, baseline3, baseline4
 
 app = FastAPI(title="Career Advisor API", version="1.0.0")
 
@@ -46,3 +46,6 @@ async def health():
 
 # Thêm vào sau phần khai báo middleware CORS
 app.include_router(baseline1.router)
+app.include_router(baseline2.router) 
+app.include_router(baseline3.router)
+app.include_router(baseline4.router)

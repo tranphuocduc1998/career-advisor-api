@@ -157,3 +157,37 @@ async def run_content_based(
         )
 
         # Lọc bỏ ngành không có dữ liệu RIASEC
+        if match_percent == 0.0:
+            continue
+
+        scored_majors.append((major_id, match_percent))
+
+    # Bước 5: Xếp hạng theo match score giảm dần
+    scored_majors.sort(key=lambda x: x[1], reverse=True)
+
+    # Bước 6: Lấy top_n và build kết quả
+    results = []
+    for major_id, match_percent in scored_majors[:top_n]:
+        rows_for_major = grouped[major_id]
+        first = rows_for_major[0]
+
+        reason = build_primary_reason(
+            top_code=top_code,
+            riasec_match_percent=match_percent,
+            major_name=first["major_name_vi"],
+        )
+
+        recommendation = build_major_recommendation(
+            rows=rows_for_major,
+            riasec_match_percent=match_percent,
+            final_score=match_percent / 100,  # Normalize về [0, 1]
+            primary_reason=reason,
+        )
+        results.append(recommendation)
+
+    return RecommendationResponse(
+        baseline="content_based",
+        riasec_code=top_code,
+        total_candidates=total_candidates,
+        results=results,
+    )
